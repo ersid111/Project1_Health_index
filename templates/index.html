@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user input</title>
+</head>
+<body>
+    <form method="post" action="/predict">
+        <label>Hydrogen</label><input type="text" name="Hydrogen"><br><br>
+        <label>Oxigen</label><input type="text" name="Oxigen"><br><br>
+        <label>Nitrogen</label><input type="text" name="Nitrogen"><br><br>
+        <label>Methane</label><input type="text" name="Methane"><br><br>
+        <label>CO</label><input type="text" name="CO"><br><br>
+        <label>CO2</label><input type="text" name="CO2"><br><br>
+        <label>Ethylene</label><input type="text" name="Ethylene"><br><br>
+        <label>Ethane</label><input type="text" name="Ethane"><br><br>
+        <label>Acethylene</label><input type="text" name="Acethylene"><br><br>
+        <label>DBDS</label><input type="text" name="DBDS"><br><br>
+        <label>Power factor</label><input type="text" name="Power factor"><br><br>
+        <label>Interfacial V</label><input type="text" name="Interfacial V"><br><br>
+        <label>Dielectric rigidity</label><input type="text" name="Dielectric rigidity"><br><br>
+        <label>Water content</label><input type="text" name="Water content"><br><br>
+        <label>Health index</label><input type="text" name="Health index"><br><br>
+       
+        <input type="submit" value="PREDICT CLUSTURE">
+
+
+
+    </form>
+    <label>Efficiency_predicted</label> {{customer_cluster}}
+</body>
+</html>
